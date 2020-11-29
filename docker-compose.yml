@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  go-cors:
+    build: .
+    ports:
+      - "12703:12703/tcp"
+    image: go-cors:latest
+    container_name: go-cors
