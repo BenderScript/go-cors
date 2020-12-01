@@ -4,5 +4,6 @@ services:
     build: .
     ports:
       - "12703:12703/tcp"
+      - "12704:12704/tcp"
     image: go-cors:latest
     container_name: go-cors
